@@ -40,5 +40,5 @@ example:
 `OPS="OpPlayer1,OpPlayer2"`
 
 ## Source
-Github: https://github.com/Ratomas/
-Docker: https://hub.docker.com/r/ratomas/
+Github: https://github.com/Ratomas/rustic-waters-ii
+Docker: https://hub.docker.com/r/ratomas/rustic-waters-ii
