@@ -28,7 +28,7 @@ After the first run it will simply start the server.
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx6144m"
-* MOTD "A Minecraft (Rustic Waters II 1.0.3) Server Powered by Docker"
+* MOTD "A Minecraft (Rustic Waters II 1.0.9) Server Powered by Docker"
 * LEVEL world
 * LEVELTYPE ""
 
