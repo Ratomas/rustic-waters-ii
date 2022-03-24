@@ -926,10 +926,8 @@ craftingTable.addShaped("2f3ca90f-dd5f-4d57-8e4c-b1f9b552f32a", <item:rustic_res
     [<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShaped("1e8f72c5-5a98-4f5d-8880-8f89a20481c1", <item:immersiveengineering:steel_scaffolding_standard> * 4, [
-    [<item:immersiveengineering:stick_steel>, <item:immersiveengineering:stick_steel>, <item:minecraft:air>], 
-    [<item:immersiveengineering:stick_steel>, <item:immersiveengineering:stick_steel>, <item:minecraft:air>], 
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+craftingTable.addShapeless("b626556c-cb74-4313-9eca-76523b7b070c", <item:immersiveengineering:steel_scaffolding_standard> * 4, [
+	<item:immersiveengineering:stick_steel>, <item:immersiveengineering:stick_steel>, <item:immersiveengineering:stick_steel>, <item:immersiveengineering:stick_steel>
 ]);
 
 craftingTable.addShapeless("3596fdc8-4a7d-47e9-864d-ba95a186d8f1", <item:thermal:invar_plate>, [
@@ -2053,12 +2051,20 @@ craftingTable.addShaped("f27a72d9-62ea-49fc-8f5b-2d768d97df08", <item:mekanism:p
 	[<item:rustic_resources:antimattermorsel>, <item:rustic_resources:antimattermorsel>, <item:rustic_resources:antimattermorsel>]
 ]);
 
-craftingTable.addShapeless("eb4e65cc-f16e-473b-aa7e-f147c7b230e4", <item:minecraft:heavy_weighted_pressure_plate>, [
-	<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>
+craftingTable.addShapeless("49ea97f6-e67f-4dc7-a02d-d998076fcd97", <item:minecraft:heavy_weighted_pressure_plate>, [
+	<item:minecraft:iron_ingot>, <item:minecraft:oak_pressure_plate>
 ]);
 
 craftingTable.addShaped("5de6896a-7d99-4624-b483-d07c77d2433e", <item:simpleplanes:charging_station>, [
 	[<tag:items:forge:ingots/tin>, <item:create:electron_tube>, <tag:items:forge:ingots/tin>], 
 	[<item:minecraft:blue_wool>, <item:immersiveengineering:coil_lv>, <item:minecraft:blue_wool>], 
 	[<item:minecraft:blue_wool>, <item:minecraft:blue_wool>, <item:minecraft:blue_wool>]
+]);
+
+craftingTable.addShapeless("2445cc85-4d0b-42e2-ba00-f610a1844cfb", <item:inventorypets:nugget_obsidian> * 9, [
+	<item:minecraft:obsidian>, <item:immersiveengineering:hammer>.anyDamage()
+]);
+
+craftingTable.addShapeless("d73d9968-561d-451e-bfa0-ba1eaa1ac926", <item:mysticalagriculture:prosperity_gemstone> * 9, [
+	<item:mysticalagriculture:prosperity_gemstone_block>
 ]);

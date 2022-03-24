@@ -45,6 +45,11 @@ carfaddredstone.add(<item:dark_caverns:carfstone_redstone_ore>);
 val carfaddlapis = <tag:items:forge:ores/lapis>;
 carfaddlapis.add(<item:dark_caverns:carfstone_lapis_ore>);
 
+val flaxeremoveegg = <tag:items:forge:egg>;
+flaxeremoveegg.remove(<item:pamhc2crops:flaxitem>);
+
+val flaxeremoveegg2 = <tag:items:forge:egg/flax>;
+flaxeremoveegg2.remove(<item:pamhc2crops:flaxitem>);
 
 <tag:items:forge:recorders>.add(<item:overlays:rec_1start>);
 <tag:items:forge:recorders>.add(<item:overlays:rec_15start>);

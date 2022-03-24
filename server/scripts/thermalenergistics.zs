@@ -44,6 +44,9 @@ recipes.removeByName("thermal:machine/pulverizer/pulverizer_quartz");
 <recipetype:thermal:refinery>.addRecipe("conatusoil", <item:pamhc2trees:maplesyrupitem>, [<fluid:woot:conatus_fluid> *500], <fluid:thermal:tree_oil> *1000, 5000);
 
 
+#encapsulator
+<recipetype:thermal:bottler>.addRecipe("xppearlx", <item:miniutilities:experience_pearl>, <tag:items:forge:seeds>, <fluid:cofh_core:experience> *250, 500);
+
 #pulverizer
 <recipetype:thermal:pulverizer>.addRecipe("crushedice", [<item:rustic_resources:crushedice> % 100] , <item:minecraft:packed_ice>, 2, 1500);
 

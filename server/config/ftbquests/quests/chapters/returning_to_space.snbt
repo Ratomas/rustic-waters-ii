@@ -367,7 +367,7 @@
 			tasks: [{
 				id: "145DFFB712F426C4"
 				type: "item"
-				item: "rustic_resources:awakeore"
+				item: "rustic_resources:awakdrac"
 				count: 32L
 			}]
 			rewards: [{

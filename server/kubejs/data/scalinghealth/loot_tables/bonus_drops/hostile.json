@@ -102,7 +102,7 @@
               "count": 1
             }
           ],
-          "name": "rustic_resources:hostilenugget"
+          "name": "draconicevolution:draconium_dust"
         },
         {
           "type": "minecraft:item",
@@ -112,7 +112,7 @@
               "count": 1
             }
           ],
-          "name": "rustic_resources:antimattermorsel"
+          "name": "minecraft:netherite_scrap"
         } 
       ],
       "conditions": [

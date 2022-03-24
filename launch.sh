@@ -27,11 +27,30 @@ if ! [[ -f minecraft_server.1.16.5.jar ]]; then
 		exit 1
 	fi
 fi
-if ! [[ -f server-1.0.9.jar ]]; then
+if ! [[ -f server-1.1.jar ]]; then
 	rm -fr config defaultconfigs global_data_packs global_resource_packs kubejs libraries mods patchouli_books scripts server-*.jar server.properties
 	mv /server/* /data/
 	rm -rf /server
 
+fi
+
+# adding a mod from curseforge that is not included in modpack. will have to configure manually
+if ! [[ -f mods/mc2discord-forge-1.16.x-3.2.2.jar ]]; then
+	# download missing mod jar
+	URL="https://www.curseforge.com/minecraft/mc-mods/mc2discord/files/3576576"
+
+	if command -v wget &> /dev/null; then
+		echo "DEBUG: (wget) Downloading ${URL}"
+		wget -O mc2discord-forge-1.16.x-3.2.2.jar "${URL}"
+		mv mc2discord-forge-1.16.x-3.2.2.jar mods/
+	elif command -v curl &> /dev/null; then
+		echo "DEBUG: (curl) Downloading ${URL}"
+		curl -o mc2discord-forge-1.16.x-3.2.2.jar "${URL}"
+		mv mc2discord-forge-1.16.x-3.2.2.jar mods/
+	else
+		echo "Neither wget or curl were found on your system. Please install one and try again"
+		exit 1
+	fi
 fi
 
 if [[ -n "$MOTD" ]]; then
@@ -51,4 +70,4 @@ fi
 curl -o log4j2_112-116.xml https://launcher.mojang.com/v1/objects/02937d122c86ce73319ef9975b58896fc1b491d1/log4j2_112-116.xml
 
 
-java $JAVA_FLAGS $JVM_OPTS -Dlog4j.configurationFile=log4j2_112-116.xml -jar server-1.0.9.jar
+java $JAVA_FLAGS $JVM_OPTS -Dlog4j.configurationFile=log4j2_112-116.xml -jar server-1.1.jar

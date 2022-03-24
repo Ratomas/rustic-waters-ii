@@ -215,6 +215,12 @@
    "message": "Nah, son.",
    "result": "deny"
  },
+    {
+   "maxheight": 99,
+   "block": "rustic_resources:dookie",
+   "message": "Only works at Y100+.",
+   "result": "deny"
+ },
  {
    "maxheight": 70,
    "block": "immersiveengineering:craftingtable",
