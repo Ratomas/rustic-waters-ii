@@ -1,4 +1,5 @@
 craftingTable.removeRecipe(<item:xreliquary:witherless_rose>);
+craftingTable.removeRecipe(<item:extendedcrafting:luminessence>);
 
 
 
@@ -60,13 +61,13 @@ mods.extendedcrafting.TableCrafting.addShaped("6f770145-439a-4c41-aad0-a937d627a
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("5db08e27-f34c-4559-9e17-355fede7c1ee", 0, <item:storagedrawers:creative_storage_upgrade>, [
-	[<item:rustic_resources:shipcomponents>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:reinforcedwood>, <item:simplybackpacks:ultimatebackpack>, <item:rustic_resources:reinforcedwood>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:shipcomponents>], 
+	[<item:rustic_resources:shipcomponents>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:reinforcedwood>, <item:extendedcrafting:luminessence>, <item:rustic_resources:reinforcedwood>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:shipcomponents>], 
 	[<item:draconicevolution:chaos_shard>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:draconicevolution:chaos_shard>], 
 	[<item:rustic_resources:reinforcedwood>, <item:extendedcrafting:the_ultimate_ingot>, <item:mekanism:ultimate_bin>, <item:appliedenergistics2:64k_crafting_storage>, <item:mekanism:ultimate_bin>, <item:extendedcrafting:the_ultimate_ingot>, <item:rustic_resources:reinforcedwood>], 
-	[<item:simplybackpacks:ultimatebackpack>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_crafting_storage>, <item:rustic_resources:hatefulheart>, <item:appliedenergistics2:64k_crafting_storage>, <item:extendedcrafting:the_ultimate_ingot>, <item:simplybackpacks:ultimatebackpack>], 
+	[<item:extendedcrafting:luminessence>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_crafting_storage>, <item:rustic_resources:hatefulheart>, <item:appliedenergistics2:64k_crafting_storage>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:luminessence>], 
 	[<item:rustic_resources:reinforcedwood>, <item:extendedcrafting:the_ultimate_ingot>, <item:mekanism:ultimate_bin>, <item:appliedenergistics2:64k_crafting_storage>, <item:mekanism:ultimate_bin>, <item:extendedcrafting:the_ultimate_ingot>, <item:rustic_resources:reinforcedwood>], 
 	[<item:draconicevolution:chaos_shard>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:draconicevolution:chaos_shard>], 
-	[<item:rustic_resources:shipcomponents>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:reinforcedwood>, <item:simplybackpacks:ultimatebackpack>, <item:rustic_resources:reinforcedwood>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:shipcomponents>]
+	[<item:rustic_resources:shipcomponents>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:reinforcedwood>, <item:extendedcrafting:luminessence>, <item:rustic_resources:reinforcedwood>, <item:draconicevolution:chaos_shard>, <item:rustic_resources:shipcomponents>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("11865dfa-2143-4cb3-86e3-7e6c60d8c191", 0, <item:immersiveengineering:capacitor_creative>, [
@@ -82,11 +83,11 @@ mods.extendedcrafting.TableCrafting.addShaped("11865dfa-2143-4cb3-86e3-7e6c60d8c
 
 mods.extendedcrafting.TableCrafting.addShaped("9d52f87b-2478-4b65-8e9d-b6c499bd4f50", 0, <item:mekanism:creative_fluid_tank>, [
 	[<item:mekanism:ultimate_fluid_tank>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:mekanism:ultimate_fluid_tank>], 
-	[<item:allthecompressed:glass_block_4x>, <item:thermal:fluid_reservoir>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:extendedcrafting:the_ultimate_ingot>, <item:thermal:fluid_reservoir>, <item:allthecompressed:glass_block_4x>], 
+	[<item:allthecompressed:glass_block_4x>, <item:extendedcrafting:luminessence>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:luminessence>, <item:allthecompressed:glass_block_4x>], 
 	[<item:allthecompressed:glass_block_4x>, <item:extendedcrafting:the_ultimate_ingot>, <item:industrialforegoing:supreme_black_hole_tank>, <item:minecraft:air>, <item:industrialforegoing:supreme_black_hole_tank>, <item:extendedcrafting:the_ultimate_ingot>, <item:allthecompressed:glass_block_4x>], 
 	[<item:allthecompressed:glass_block_4x>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:minecraft:air>, <item:rustic_resources:hatefulheart>, <item:minecraft:air>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:allthecompressed:glass_block_4x>], 
 	[<item:allthecompressed:glass_block_4x>, <item:extendedcrafting:the_ultimate_ingot>, <item:industrialforegoing:supreme_black_hole_tank>, <item:minecraft:air>, <item:industrialforegoing:supreme_black_hole_tank>, <item:extendedcrafting:the_ultimate_ingot>, <item:allthecompressed:glass_block_4x>], 
-	[<item:allthecompressed:glass_block_4x>, <item:thermal:fluid_reservoir>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:extendedcrafting:the_ultimate_ingot>, <item:thermal:fluid_reservoir>, <item:allthecompressed:glass_block_4x>], 
+	[<item:allthecompressed:glass_block_4x>, <item:extendedcrafting:luminessence>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_fluid_cell_component>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:luminessence>, <item:allthecompressed:glass_block_4x>], 
 	[<item:mekanism:ultimate_fluid_tank>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:allthecompressed:glass_block_4x>, <item:mekanism:ultimate_fluid_tank>]
 ]);
 
@@ -101,13 +102,13 @@ mods.extendedcrafting.TableCrafting.addShaped("40efa87a-7539-4d1c-b5cf-361842de2
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("80b1f525-24b4-42aa-8f74-ec4b80a0f02f", 0, <item:appliedenergistics2:creative_storage_cell>, [
-	[<item:extendedcrafting:the_ultimate_ingot>, <item:draconicevolution:chaotic_core>, <item:storagedrawers:emerald_storage_upgrade>, <item:draconicevolution:chaos_shard>, <item:appliedenergistics2:64k_storage_cell>, <item:draconicevolution:chaotic_core>, <item:extendedcrafting:the_ultimate_ingot>], 
+	[<item:extendedcrafting:the_ultimate_ingot>, <item:draconicevolution:chaotic_core>, <item:storagedrawers:emerald_storage_upgrade>, <item:extendedcrafting:luminessence>, <item:appliedenergistics2:64k_storage_cell>, <item:draconicevolution:chaotic_core>, <item:extendedcrafting:the_ultimate_ingot>], 
 	[<item:draconicevolution:chaotic_core>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_storage_cell>, <item:appliedenergistics2:64k_storage_cell>, <item:appliedenergistics2:64k_storage_cell>, <item:extendedcrafting:the_ultimate_ingot>, <item:draconicevolution:chaotic_core>], 
 	[<item:storagedrawers:emerald_storage_upgrade>, <item:appliedenergistics2:64k_storage_cell>, <item:rustic_resources:passiveblock>, <item:rustic_resources:hostileblock>, <item:rustic_resources:passiveblock>, <item:appliedenergistics2:64k_storage_cell>, <item:storagedrawers:emerald_storage_upgrade>], 
-	[<item:draconicevolution:chaotic_core>, <item:appliedenergistics2:64k_storage_cell>, <item:rustic_resources:hostileblock>, <item:rustic_resources:hatefulheart>, <item:rustic_resources:hostileblock>, <item:appliedenergistics2:64k_storage_cell>, <item:draconicevolution:chaotic_core>], 
+	[<item:extendedcrafting:luminessence>, <item:appliedenergistics2:64k_storage_cell>, <item:rustic_resources:hostileblock>, <item:storagedrawers:creative_storage_upgrade>, <item:rustic_resources:hostileblock>, <item:appliedenergistics2:64k_storage_cell>, <item:extendedcrafting:luminessence>], 
 	[<item:storagedrawers:emerald_storage_upgrade>, <item:appliedenergistics2:64k_storage_cell>, <item:rustic_resources:passiveblock>, <item:rustic_resources:hostileblock>, <item:rustic_resources:passiveblock>, <item:appliedenergistics2:64k_storage_cell>, <item:storagedrawers:emerald_storage_upgrade>], 
 	[<item:draconicevolution:chaotic_core>, <item:extendedcrafting:the_ultimate_ingot>, <item:appliedenergistics2:64k_storage_cell>, <item:appliedenergistics2:64k_storage_cell>, <item:appliedenergistics2:64k_storage_cell>, <item:extendedcrafting:the_ultimate_ingot>, <item:draconicevolution:chaotic_core>], 
-	[<item:extendedcrafting:the_ultimate_ingot>, <item:draconicevolution:chaotic_core>, <item:storagedrawers:emerald_storage_upgrade>, <item:draconicevolution:chaos_shard>, <item:storagedrawers:emerald_storage_upgrade>, <item:draconicevolution:chaotic_core>, <item:extendedcrafting:the_ultimate_ingot>]
+	[<item:extendedcrafting:the_ultimate_ingot>, <item:draconicevolution:chaotic_core>, <item:storagedrawers:emerald_storage_upgrade>, <item:extendedcrafting:luminessence>, <item:storagedrawers:emerald_storage_upgrade>, <item:draconicevolution:chaotic_core>, <item:extendedcrafting:the_ultimate_ingot>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("73779e5e-9954-49b5-8a31-3d6c843d9fa3", 0, <item:ars_nouveau:creative_spell_book>.withTag({mode: 0 as int, spells: ",intangible,ignite,flare,underfoot,strength,bounce,craft,cold_snap,rune,snare,slowfall,freeze,split,crush,smelt,summon_decoy,summon_steed,accelerate,hex,summon_vex,orbit,lightning,grow,dampen,touch,sensitive,toss,invisibility,firework,extract,delay,light,duration_down,exchange,place_block,summon_wolves,shield,conjure_water,cut,harm,interact,blink,amplify,phantom_block,fell,extend_time,heal,evaporate,leap,redstone_signal,pierce,harvest,fortune,break,linger,pickup,launch,dispel,haste,wind_shear,ender_inventory,pull,explosion,fangs,aoe,gravity,self,glide,aquatic,projectile,wither,gust" as string}), [
@@ -128,4 +129,10 @@ mods.extendedcrafting.TableCrafting.addShaped("db080822-b1a8-4f3b-adf1-7db3d7c37
 	[<item:thermal:enderium_gear>, <item:advgenerators:turbine_tier5>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:electrum" as string}), <item:draconicevolution:chaotic_capacitor>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:electrum" as string}), <item:advgenerators:turbine_tier5>, <item:thermal:enderium_gear>], 
 	[<item:extendedcrafting:the_ultimate_ingot>, <item:mekanism:ultimate_induction_cell>, <item:advgenerators:turbine_tier5>, <item:allthecompressed:nether_star_block>, <item:advgenerators:turbine_tier5>, <item:mekanism:ultimate_induction_cell>, <item:extendedcrafting:the_ultimate_ingot>], 
 	[<item:mysticalagriculture:supremium_ingot_block>, <item:extendedcrafting:the_ultimate_ingot>, <item:thermal:enderium_gear>, <item:thermal:enderium_gear>, <item:thermal:enderium_gear>, <item:extendedcrafting:the_ultimate_ingot>, <item:mysticalagriculture:supremium_ingot_block>]
+]);
+
+craftingTable.addShaped("93507565-6e4c-44c9-a13f-ad5613550df7", <item:extendedcrafting:luminessence>, [
+	[<item:mysticalagriculture:supremium_essence>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:glowstone" as string}), <item:mysticalagriculture:supremium_essence>], 
+	[<item:miniutilities:experience_pearl_8x>, <item:appliedenergistics2:singularity>, <item:miniutilities:experience_pearl_8x>], 
+	[<item:mysticalagriculture:supremium_essence>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:glowstone" as string}), <item:mysticalagriculture:supremium_essence>]
 ]);

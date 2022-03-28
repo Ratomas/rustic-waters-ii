@@ -390,7 +390,7 @@
 		{
 			x: -4.0d
 			y: -2.0d
-			description: ["Energy Cells hold 2,000,000 rf.  The seamoth uses 200 FE/t"]
+			description: ["Energy Cells hold 2,000,000 rf.  The seamoth uses 100 FE/t"]
 			dependencies: ["30EBEBC95FD964C1"]
 			id: "3709A98AFFBB20EB"
 			tasks: [{

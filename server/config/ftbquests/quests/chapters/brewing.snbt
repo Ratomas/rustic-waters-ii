@@ -333,9 +333,9 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "0B4EF388BF9CC486"
-				type: "item"
-				item: "rustic_resources:keyfragment"
+				id: "406320601277DF62"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -407,6 +407,11 @@
 				id: "4336AAA78409DC31"
 				type: "item"
 				item: "tipsy:wort"
+			}]
+			rewards: [{
+				id: "081375E9E9426FA2"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{

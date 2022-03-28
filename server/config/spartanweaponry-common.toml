@@ -448,10 +448,10 @@
 	damageBonusChestMultiplier = 1.5
 	#Changes the "Riding Damage Bonus" Weapon Trait multiplier value
 	#Range: 1.0 ~ 50.0
-	damageBonusRidingMultiplier = 2.25
+	damageBonusRidingMultiplier = 3.0
 	#Changes the "Throwing Damage Bonus" Weapon Trait multiplier value
 	#Range: 1.0 ~ 50.0
-	damageBonusThrowMultiplier = 2.0
+	damageBonusThrowMultiplier = 2.5
 	#Changes the "Chest Damage Bonus" Weapon Trait multiplier value
 	#Range: 1.0 ~ 50.0
 	damageBonusThrowJavelinMultiplier = 3.0

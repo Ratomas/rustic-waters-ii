@@ -297,7 +297,7 @@ customization {
   action = addbutton
   y = -17
   backgroundnormal = resources\discord.png
-  value = https://discord.gg/bbnARkv
+  value = https://discord.gg/Mb5RhqRuBh
   height = 16
 }
 

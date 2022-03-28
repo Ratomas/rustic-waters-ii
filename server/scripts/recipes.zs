@@ -27,6 +27,8 @@ craftingTable.removeByModid("adhooks");
 craftingTable.removeByModid("vanillahammers");
 
 
+
+craftingTable.removeRecipe(<item:miniutilities:dark_glass>);
 craftingTable.removeRecipe(<item:minecraft:heavy_weighted_pressure_plate>);
 craftingTable.removeRecipe(<item:mysticalagriculture:supremium_farmland>);
 craftingTable.removeRecipe(<item:mysticalagriculture:imperium_farmland>);
@@ -948,7 +950,7 @@ craftingTable.addShaped("3c48bc24-301c-4487-9b05-207334ae2d88", <item:rustic_res
     [<item:rustic_resources:fasteners>, <tag:items:forge:treated_wood>, <item:rustic_resources:fasteners>]
 ]);
 
-craftingTable.addShaped("606611f3-563e-4866-9543-605970520874", <item:better_diving:power_cell>.withTag({"better_diving:energy_storage": 500000 as int}), [
+craftingTable.addShaped("606611f3-563e-4866-9543-605970520874", <item:better_diving:power_cell>.withTag({"better_diving:energy_storage": 1000000 as int}), [
     [<item:immersiveengineering:treated_wood_horizontal>, <tag:items:forge:plates/nickel>, <item:immersiveengineering:treated_wood_horizontal>], 
     [<item:rustic_resources:redstonewire>, <item:minecraft:redstone_block>, <item:rustic_resources:redstonewire>], 
     [<item:immersiveengineering:treated_wood_horizontal>, <tag:items:forge:plates/nickel>, <item:immersiveengineering:treated_wood_horizontal>]
@@ -2067,4 +2069,22 @@ craftingTable.addShapeless("2445cc85-4d0b-42e2-ba00-f610a1844cfb", <item:invento
 
 craftingTable.addShapeless("d73d9968-561d-451e-bfa0-ba1eaa1ac926", <item:mysticalagriculture:prosperity_gemstone> * 9, [
 	<item:mysticalagriculture:prosperity_gemstone_block>
+]);
+
+craftingTable.addShaped("82e04dbe-1764-4c2c-a32a-63ae945a2b56", <item:rustic_resources:aluminite_ingot> * 4, [
+	[<item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>], 
+	[<item:mysticalagriculture:luminite_crop_essence>, <item:minecraft:air>, <item:mysticalagriculture:luminite_crop_essence>], 
+	[<item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>]
+]);
+
+craftingTable.addShaped("c3267ab9-b7e9-4a43-ae20-0c2cf3a11be2", <item:dark_caverns:luminite_dust> * 4, [
+	[<item:mysticalagriculture:luminite_crop_essence>, <item:minecraft:air>, <item:mysticalagriculture:luminite_crop_essence>], 
+	[<item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>], 
+	[<item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>, <item:mysticalagriculture:luminite_crop_essence>]
+]);
+
+craftingTable.addShaped("69989676-2104-4948-a9db-c9cbf16c4acf", <item:miniutilities:dark_glass> * 8, [
+	[<item:minecraft:glass>, <item:minecraft:black_dye>, <item:minecraft:glass>], 
+	[<item:minecraft:glass>, <item:minecraft:glass>, <item:minecraft:glass>], 
+	[<item:minecraft:glass>, <item:minecraft:glass>, <item:minecraft:glass>]
 ]);

@@ -241,7 +241,7 @@ swimspeedProviderItems = ["better_diving:fins, false, false, true, false, false,
 	seamothSpeed = 0.0275
 	#Energy usage of the seamoth per tick.
 	#Range: 0 ~ 1000000
-	seamothEnergyUsage = 150
+	seamothEnergyUsage = 100
 
 #No comment
 [underwater_visuals]
