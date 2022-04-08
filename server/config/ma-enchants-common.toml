@@ -27,7 +27,7 @@
 	enable = true
 
 [true_shot]
-	enable = true
+	enable = false
 
 [quick_draw]
 	enable = true
@@ -39,7 +39,7 @@
 	enable = true
 
 [detonation]
-	enable = true
+	enable = false
 
 [combo]
 	enable = true

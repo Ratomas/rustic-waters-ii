@@ -2,7 +2,7 @@
 	"type": "boss_tools:oxygenloader",
 	"input": {
 		"name": "minecraft:water",
-		"amount": 500
+		"amount": 250
 	},
-	"oxygen": 200
+	"oxygen": 100
 }

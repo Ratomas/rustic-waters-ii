@@ -344,11 +344,19 @@
 				type: "item"
 				item: "rustic_resources:subframe"
 			}]
-			rewards: [{
-				id: "1400CF7862962E05"
-				type: "item"
-				item: "decimal_coins:coin_10"
-			}]
+			rewards: [
+				{
+					id: "33AB23E2A6B0E624"
+					type: "item"
+					item: "rustic_resources:fasteners"
+					count: 8
+				}
+				{
+					id: "464304B13BCECF88"
+					type: "item"
+					item: "decimal_coins:coin_10"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -360,6 +368,7 @@
 				id: "5BCBC6462919353E"
 				type: "item"
 				item: "rustic_resources:reinforcedwood"
+				count: 8L
 			}]
 			rewards: [{
 				id: "014FB623B134EDB0"
@@ -503,11 +512,8 @@
 			shape: "gear"
 			subtitle: "You will receive additional Key Fragments for quest rewards as you progress, though there will not be a quest linked to them.  Open your Hub Expansions whenever you get enough keys."
 			description: ["Congratulations on completing the content up to this point in the adventure.  Use this key to expand your base."]
-			hide_dependency_lines: true
-			dependencies: [
-				"58E1B492D2AEF288"
-				"04C2A2258E7A5607"
-			]
+			hide_dependency_lines: false
+			dependencies: ["58E1B492D2AEF288"]
 			size: 2.0d
 			id: "1276E9F59721A251"
 			tasks: [{

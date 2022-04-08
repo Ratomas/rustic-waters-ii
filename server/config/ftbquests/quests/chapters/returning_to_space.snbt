@@ -47,7 +47,7 @@
 			subtitle: "Our first destination is Atum, reachable with a Tier 2 Enderium Rocket."
 			description: [
 				"Atum is the planet we can reach that is furthest from the Sun's Supernovas.  While it is a hot, dry, desert planet, it may still be teeming with life."
-				"Exploring Atum is an adventure unto its own, and therefore has its own quest guide: \"Once Upon Atum\".  It is the primary source of Draconium Ore, found deep beneath its sandy layers.  It is highly recommended that you explore that quest chain in conjunction with this one."
+				"Exploring Atum is an adventure unto its own, and therefore has a deeper questline in the \"Evolution of Power\" tab.  It is the primary source of Draconium Ore, found scattered atop it's sandy surface."
 			]
 			dependencies: ["023CF84DD37B9C49"]
 			id: "619133F99DA90D78"
@@ -161,20 +161,11 @@
 				type: "item"
 				item: "thermal:machine_refinery"
 			}]
-			rewards: [
-				{
-					id: "4CB92ECDD3E8CFC2"
-					type: "item"
-					item: "chisel:factory/dots"
-					count: 16
-				}
-				{
-					id: "6266AFEFF86E9BDF"
-					type: "item"
-					item: "create:framed_glass"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "4A3F1C258F309035"
+				type: "xp"
+				xp: 300
+			}]
 		}
 		{
 			x: -5.5d
@@ -334,8 +325,8 @@
 			x: -6.54d
 			y: -2.68d
 			shape: "diamond"
-			subtitle: "You will need to scavenge many pieces of Liberty Frigate materials from wreckage on the ocean floor.  These pieces of Caladan technology contain the data needed for the Jump Gate Programmer."
-			description: ["The Jump Gate must be programmed with the coordinates of the galaxy and planet that you are returning to.  This was easily done using complex technology imbedded into the Liberty.  Since the Liberty has broken into hundreds of pieces on the ocean floor, you will need to create the Jump Gate Programmer, and Right Click it on the Jump Gate frame to program it for Caladan."]
+			subtitle: "You must bring a few specific materials with you to the Jump Gate in order to repair the platform.  These materials are 6x Diamonds, 4x Desh Plates, 12x Iron Plates, and 16x Steel Ingots.  The Steel, Iron, and Desh MUST be from the Space Boss Tools mod, and have been provided in this reward for you.  These specific items can also be purchased from the Boolyman Trader."
+			description: ["Once you have crafted the Jump Gate Programmer, you can choose to complete the \"Hero of Caladan\" tab or head strait home to Caladan empty handed.  You can still choose to continue playing once on Caladan, but returning home is the \"soft end\" of your adventure.  The Jump Gate is located in the orbit of Mercury, reachable with a Draconium Rocket.  Once you are ready to head home, launch your rocket to Mercury -> Jump Gate, and Right Click the Programmer on the Jump Gate."]
 			hide_dependency_lines: true
 			dependencies: ["68322484136D428F"]
 			size: 2.0d
@@ -351,12 +342,31 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0FE50FAD9C8F58AC"
-				type: "item"
-				item: "decimal_coins:coin_100"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "4D90CF8A3B3D80D3"
+					type: "item"
+					item: "boss_tools:steel_ingot"
+					count: 16
+				}
+				{
+					id: "5F8E63C9A82C74ED"
+					type: "item"
+					item: "boss_tools:iron_plate"
+					count: 12
+				}
+				{
+					id: "4BB63ACAD5B1D5F1"
+					type: "item"
+					item: "boss_tools:desh_plate"
+					count: 4
+				}
+				{
+					id: "5A8E3BE220A2D7CE"
+					type: "item"
+					item: "decimal_coins:coin_100"
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -371,41 +381,16 @@
 				count: 32L
 			}]
 			rewards: [{
-				id: "663AF288B583D275"
+				id: "1395B64EECD2FB0D"
 				type: "item"
-				item: {
-					id: "draconicevolution:draconic_pickaxe"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									369799894
-									938362895
-									-1650166486
-									-963801644
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
-									}
-								}
-							}
-							energy: {
-								energy: 0L
-							}
-						}
-					}
-				}
+				item: "rustic_resources:bosskey"
 			}]
 		}
 		{
 			x: -3.0d
 			y: 4.43d
 			subtitle: "The Oxygen you have created from the Oxygen Loader during the Meknology quest line will fill your Space Suit."
-			description: ["Atmospheric scans showed that Atum does have an Oxygen layer that will allow you to breathe.  However, all other planets will require you to be wearing a space suit.  Your spacesuit provides you protection from the extreme temperatures, while also providing you a steady flow of Oxygen. Oxygen must be loaded into the chest piece of your Space Suit."]
+			description: ["All planets will require you to be wearing a space suit.  It is recommended that you enchant your Space Suit thoroughly to protect yourself from any enemies you will find.  Your spacesuit provides you protection from the extreme temperatures, while also providing you a steady flow of Oxygen. Oxygen must be loaded into the chest piece of your Space Suit."]
 			dependencies: ["270D310E66617B9C"]
 			id: "05F7886C36C63CE2"
 			tasks: [

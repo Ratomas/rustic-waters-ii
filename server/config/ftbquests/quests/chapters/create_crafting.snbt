@@ -500,6 +500,7 @@
 		{
 			x: 4.2d
 			y: -8.6d
+			subtitle: "Prismarine can be found on mini-monuments located around the ocean floor.  You may need to revisit this quest once you have explored more."
 			description: [
 				""
 				"The Prismarine Hammer comes pre-enchanted with Efficiency V and Silk Touch... great for acquiring coral and other resources from the ocean floor."

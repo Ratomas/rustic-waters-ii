@@ -192,7 +192,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_invar" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_invar"
@@ -274,8 +282,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_invar" }
-		{ item: "spartanweaponry:tomahawk_invar" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_invar"
@@ -366,7 +390,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_gold" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_gold"
@@ -439,7 +471,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_gold" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_gold"
@@ -503,7 +543,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_silver" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_silver"
@@ -567,8 +615,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_silver" }
-		{ item: "spartanweaponry:tomahawk_silver" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_silver"
@@ -722,8 +786,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_steel" }
-		{ item: "spartanweaponry:tomahawk_steel" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_steel"
@@ -1017,7 +1097,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_copper" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_copper"
@@ -1099,8 +1187,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_copper" }
-		{ item: "spartanweaponry:tomahawk_copper" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_copper"
@@ -1191,7 +1295,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_tin" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_tin"
@@ -1264,7 +1376,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:tomahawk_tin" }
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_tin"
@@ -1337,7 +1457,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_lead" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_lead"
@@ -1401,7 +1529,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:tomahawk_lead" }
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_lead"
@@ -1474,7 +1610,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_nickel" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_nickel"
@@ -1547,8 +1691,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_nickel" }
-		{ item: "spartanweaponry:tomahawk_nickel" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_nickel"
@@ -1641,7 +1801,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_iron" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_iron"
@@ -1723,8 +1891,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_iron" }
-		{ item: "spartanweaponry:tomahawk_iron" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_iron"
@@ -1815,7 +1999,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_bronze" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_bronze"
@@ -1897,8 +2089,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_bronze" }
-		{ item: "spartanweaponry:tomahawk_bronze" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_bronze"

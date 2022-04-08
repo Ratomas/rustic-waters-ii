@@ -100,6 +100,14 @@ customization {
 
 customization {
   identifier = %id=125520%
+  orientation = top-right
+  x = -75
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=125520%
   vr:showif:modloaded = true
   action = vanilla_button_visibility_requirements
   vr:value:modloaded = somemodid
@@ -114,9 +122,25 @@ customization {
 
 customization {
   identifier = %id=1254981%
+  orientation = top-right
+  x = -75
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=1254981%
   vr:showif:modloaded = true
   action = vanilla_button_visibility_requirements
   vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=125498%
+  orientation = top-right
+  x = -75
+  action = movebutton
+  y = 0
 }
 
 customization {

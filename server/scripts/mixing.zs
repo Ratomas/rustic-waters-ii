@@ -1,3 +1,12 @@
+#crushing
+<recipetype:create:crushing>.addRecipe("silvercrush", [<item:thermal:silver_dust>], <tag:items:forge:ingots/silver>);
+
+#filling
+<recipetype:create:filling>.addRecipe("thermaltreatedspout", <item:immersiveengineering:treated_wood_horizontal>, <tag:items:minecraft:planks>, <fluid:thermal:creosote> * 125);
+
+
+#mixing
+
 <recipetype:create:mixing>.removeRecipe(<item:create:andesite_alloy>);
 
 <recipetype:create:mixing>.addRecipe("brassd", "none", <item:create:crushed_brass> * 2, [<tag:items:forge:dusts/copper> * 2, <item:create:crushed_zinc_ore>]);
@@ -15,6 +24,8 @@
 <recipetype:create:mixing>.addRecipe("constantanx", "heated", <item:thermal:constantan_dust> * 2, [<tag:items:forge:dusts/copper> * 2, <tag:items:forge:dusts/nickel>]);
 
 <recipetype:create:mixing>.addRecipe("constantanx2", "heated", <item:thermal:constantan_dust> * 2, [<tag:items:forge:dusts/copper> * 2, <item:create:crushed_nickel_ore>]);
+
+<recipetype:create:mixing>.addRecipe("constantanx3", "heated", <item:thermal:constantan_dust> * 2, [<item:create:crushed_copper_ore> * 2, <item:create:crushed_nickel_ore>]);
 
 <recipetype:create:mixing>.addRecipe("signalumx", "superheated", <item:thermal:signalum_dust> * 2, [<tag:items:forge:dusts/gold> * 2, <tag:items:forge:dusts/redstone> * 2, <tag:items:forge:dusts/silver> * 2]);
 

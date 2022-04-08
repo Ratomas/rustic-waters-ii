@@ -16,6 +16,14 @@
 	entity = "dungeons_mobs:squall_golem"
 	presetAffixes = ["magnetic", "arctic", "reflective"]
 
+	[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["paralyzing"]
+	maxTier = 3
+	minTier = 2
+	entity = "artifacts:mimic"
+	presetAffixes = []
+
 [[entities]]
 	affixPermission = "BLACKLIST"
 	affixList = ["knocking", "wounding", "paralyzing"]

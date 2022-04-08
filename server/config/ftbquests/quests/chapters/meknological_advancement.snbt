@@ -543,9 +543,9 @@
 			size: 0.8d
 			id: "5E7C1DC9FD66AF3B"
 			tasks: [{
-				id: "443B0479C3D680C1"
+				id: "547F37730B13D0EF"
 				type: "item"
-				item: "mekanism:induction_port"
+				item: "mekanism:sps_port"
 				count: 8L
 			}]
 			rewards: [{
@@ -690,6 +690,80 @@
 				id: "17E872E3E1259C8E"
 				type: "loot"
 				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: 18.4d
+			y: -1.6d
+			description: ["Induction Cells dictate the total capacity of your Induction Matrix.  You can have any number of Cells within your multiblock.  You will want to upgrade and/or add more Induction Cells to your multiblock in order to store your large amounts of Draconic Reactor energy."]
+			dependencies: ["0C43030E38E67FD1"]
+			size: 0.8d
+			id: "073D3895B9827768"
+			tasks: [{
+				id: "27AAA0DD80AE8047"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+				count: 4L
+			}]
+			rewards: [{
+				id: "777C0A3B93873593"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: 18.4d
+			y: -0.8d
+			subtitle: "While you are only making 32 Induction Casings for this quest, you may find that you need more depending on the size of your multiblock."
+			description: [
+				"The Induction Matrix is a multiblock that can store and provide massive amounts of power to your energy network.  The total size of the multiblock can be any rectangular/square shape up to 18x18x18, and must contain *at least* 1x Induction Cell, 1x Induction Provider, and 1x Induction Port."
+				"{image:rusticwaters:textures/matrix.png width:165 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["50534D0FBEFCCC26"]
+			size: 0.8d
+			id: "0C43030E38E67FD1"
+			tasks: [{
+				id: "59BF1BA618AD85D9"
+				type: "item"
+				item: "mekanism:induction_casing"
+				count: 32L
+			}]
+			rewards: [{
+				id: "037910E9562AA8F0"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 18.4d
+			y: -2.4d
+			description: [
+				"Induction Ports allow you to attach energy cables/pipes to your Inudction Matrix.  It is advised that you have at least two ports, but you can add more if desired.  You can use your Configurator on Energy mode to set each port to input or output."
+				"The Induction Providers determine the transfer rate capacity for energy flowing into and out of your Induction Matrix.  These providers come in different tiers.  You can have any number of providers within your Matrix multiblock.  Upgrading and/or adding multiple providers will be necessary for effective use of your future Draconic Reactor energy."
+			]
+			dependencies: ["0C43030E38E67FD1"]
+			size: 0.8d
+			id: "62EE590BE9A08AF9"
+			tasks: [
+				{
+					id: "44E1859248E52BC2"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "6EFE8C1CA3BAD3D6"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+			rewards: [{
+				id: "00C170A8381B8B9F"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				count: 2
 			}]
 		}
 	]

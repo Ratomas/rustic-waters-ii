@@ -142,10 +142,10 @@
 		curioDestroyChance = -1.0
 		#Percent durability loss on kept curio item
 		#Range: -1.0 ~ 1.0
-		curioKeepDurabilityLoss = 0.35
+		curioKeepDurabilityLoss = -1.0
 		#Percent durability loss on dropped curio item
 		#Range: -1.0 ~ 1.0
-		curioDropDurabilityLoss = 0.35
+		curioDropDurabilityLoss = -1.0
 
 	[inventory.cosmetic_armor]
 		#Percent chance to keep cosmetic armor item

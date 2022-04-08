@@ -90,7 +90,7 @@
 #Settings related to items. Format is "item;value", unless stated otherwise.
 [items]
 	#The max durability an item has. Can only be set on damageable items. Default value: 0
-	max_damage = []
+	max_damage = ["minecraft:shears;400"]
 	#The max stack size an item has. Can't be set on damageable items. Default value: 64 (1 for damageable items)
 	max_stack_size = []
 	#The item group (= creative tab) of an item. Use "none" to remove the item from any item group. Default value: none
@@ -107,11 +107,11 @@
 	#Settings related to armor. Only armor items (excluding the elytra) can be affected, anything else will be skipped.
 	[items.armor]
 		#Sets the armor value.
-		armor = []
+		armor = ["boss_tools:netherite_oxygen_mask;4", "boss_tools:netherite_space_suit;9", "boss_tools:netherite_space_pants;7", "boss_tools:netherite_space_boots;4"]
 		#Sets the armor toughness value. Default value: 0
-		toughness = []
+		toughness = ["boss_tools:netherite_oxygen_mask;2", "boss_tools:netherite_space_suit;2", "boss_tools:netherite_space_pants;2", "boss_tools:netherite_space_boots;2"]
 		#Sets the knockback resistance. Default value: 0
-		knockback_resistance = []
+		knockback_resistance = ["boss_tools:netherite_oxygen_mask;.1", "boss_tools:netherite_space_suit;.1", "boss_tools:netherite_space_pants;.1", "boss_tools:netherite_space_boots;.1"]
 
 	#Settings related to tools. Only tool, sword and trident items can be affected, anything else will be skipped.
 	[items.tools]

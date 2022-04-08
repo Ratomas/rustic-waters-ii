@@ -45,10 +45,10 @@
 	[fluid_pipe.amount]
 		#The amount of mB transferred each tick
 		#Range: > 1
-		no_upgrade = 100
+		no_upgrade = 250
 		#The amount of mB transferred each tick
 		#Range: > 1
-		basic = 250
+		basic = 500
 		#The amount of mB transferred each tick
 		#Range: > 1
 		improved = 1000

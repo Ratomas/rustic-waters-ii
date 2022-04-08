@@ -3,7 +3,7 @@
   "pools": [
     {
       "rolls": {
-        "min": 2.0,
+        "min": 3.0,
         "max": 5.0,
         "type": "minecraft:uniform"
       },
@@ -312,6 +312,101 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "ars_nouveau:glyph_duration_down"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:spiked_turtle_shell"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:pocket_sand"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:hemolymph_blaster"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:straddleboard"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:emu_leggings"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:platypus_bucket"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:fedora"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:echolocator"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:hummingbird_feeder"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:sombrero"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:enderiophage_rocket"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:maraca"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:moose_headgear"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:blood_sprayer"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:crocodile_chestplate"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:roadrunner_boots"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:falconry_glove"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:falconry_hood"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:gustmaker"
         },
 {
           "type": "minecraft:item",

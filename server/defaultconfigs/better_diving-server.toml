@@ -157,7 +157,7 @@ swimspeedProviderItems = ["better_diving:fins, false, false, true, false, false,
 	#No comment
 	[ores.limestone]
 		#No comment
-		enabled = false
+		enabled = true
 		#No comment
 		#Range: 0 ~ 1024
 		chance = 1
@@ -172,7 +172,7 @@ swimspeedProviderItems = ["better_diving:fins, false, false, true, false, false,
 		minHeight = 0
 		#No comment
 		#Range: -1024 ~ 1024
-		maxHeight = 64
+		maxHeight = 70
 
 	#No comment
 	[ores.sandstone]

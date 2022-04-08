@@ -11,7 +11,7 @@
 	allbiomes = true
 	#The 1/n chance for wither skeletons outside hell to be transformed.  Requires allbiomes == true.
 	#Range: 1 ~ 32767
-	allbiomechance = 1
+	allbiomechance = 3
 	#If stone swords that would be dropped are deleted.
 	delswords = true
 	#If transformed skeletons are given bows instead of stone swords.

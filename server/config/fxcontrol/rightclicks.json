@@ -4,12 +4,12 @@
    "block": "minecraft:iron_block",
    "result": "allow"
  },
- {
+  {
    "playerhelditem": "mekanism:cardboard_box",
    "block": "minecraft:spawner",
    "result": "deny"
  },
-{
+ {
    "playerhelditem": "boss_tools:rocket_launch_pad",
    "message": "Must be placed on a Block of Iron to withstand the pressure of launch.",
    "result": "deny"

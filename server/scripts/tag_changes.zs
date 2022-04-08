@@ -45,6 +45,18 @@ carfaddredstone.add(<item:dark_caverns:carfstone_redstone_ore>);
 val carfaddlapis = <tag:items:forge:ores/lapis>;
 carfaddlapis.add(<item:dark_caverns:carfstone_lapis_ore>);
 
+<tag:blocks:forge:ores/iron>.add(<block:dark_caverns:carfstone_iron_ore>);
+
+<tag:blocks:forge:ores/coal>.add(<block:dark_caverns:carfstone_coal_ore>);
+
+<tag:blocks:forge:ores/gold>.add(<block:dark_caverns:carfstone_gold_ore>);
+
+<tag:blocks:forge:ores/diamond>.add(<block:dark_caverns:carfstone_diamond_ore>);
+
+<tag:blocks:forge:ores/redstone>.add(<block:dark_caverns:carfstone_redstone_ore>);
+
+<tag:blocks:forge:ores/lapis>.add(<block:dark_caverns:carfstone_lapis_ore>);
+
 val flaxeremoveegg = <tag:items:forge:egg>;
 flaxeremoveegg.remove(<item:pamhc2crops:flaxitem>);
 

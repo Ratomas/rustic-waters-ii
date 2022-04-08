@@ -37,7 +37,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 800
+		powerPerOperation = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -63,7 +63,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerOperation = 500
+		powerPerOperation = 5000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#Max Essence [mb] - Default: [32000 mb]
@@ -71,9 +71,9 @@
 
 	[MachineAgricultureHusbandryConfig.MobDuplicatorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 62
+		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 15000
+		powerPerOperation = 25000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#Max Essence [mb] - Default: [8000 mb]
@@ -81,7 +81,7 @@
 		#Exact Copy to spawn - Default: [false]
 		exactCopy = false
 		#Essence needed to spawn [Mob health*EssenceNeeded] - Default: [12]
-		essenceNeeded = 15
+		essenceNeeded = 25
 
 	[MachineAgricultureHusbandryConfig.PlantFertilizerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -95,7 +95,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 5000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -107,7 +107,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 40
 		#Amount of Power Consumer per Operation - Default: [400FE]
-		powerPerOperation = 400
+		powerPerOperation = 2500
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid for 'Sludge Tank' - Default: [8000mB]

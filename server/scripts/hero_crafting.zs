@@ -131,8 +131,8 @@ mods.extendedcrafting.TableCrafting.addShaped("db080822-b1a8-4f3b-adf1-7db3d7c37
 	[<item:mysticalagriculture:supremium_ingot_block>, <item:extendedcrafting:the_ultimate_ingot>, <item:thermal:enderium_gear>, <item:thermal:enderium_gear>, <item:thermal:enderium_gear>, <item:extendedcrafting:the_ultimate_ingot>, <item:mysticalagriculture:supremium_ingot_block>]
 ]);
 
-craftingTable.addShaped("93507565-6e4c-44c9-a13f-ad5613550df7", <item:extendedcrafting:luminessence>, [
-	[<item:mysticalagriculture:supremium_essence>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:glowstone" as string}), <item:mysticalagriculture:supremium_essence>], 
-	[<item:miniutilities:experience_pearl_8x>, <item:appliedenergistics2:singularity>, <item:miniutilities:experience_pearl_8x>], 
-	[<item:mysticalagriculture:supremium_essence>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:glowstone" as string}), <item:mysticalagriculture:supremium_essence>]
+mods.extendedcrafting.TableCrafting.addShaped("3d2212d9-fced-4e97-b6aa-b4621ac9403e", <item:extendedcrafting:luminessence>, [
+	[<item:miniutilities:experience_pearl_7x>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:glowstone" as string}), <item:miniutilities:experience_pearl_7x>], 
+	[<item:mysticalagriculture:supremium_gemstone_block>, <item:appliedenergistics2:singularity>, <item:mysticalagriculture:supremium_gemstone_block>], 
+	[<item:miniutilities:experience_pearl_7x>, <item:extendedcrafting:singularity>.withTag({Id: "extendedcrafting:glowstone" as string}), <item:miniutilities:experience_pearl_7x>]
 ]);

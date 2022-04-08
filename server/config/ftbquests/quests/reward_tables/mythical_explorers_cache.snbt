@@ -149,7 +149,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_diamond" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_diamond"
@@ -231,8 +239,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_diamond" }
-		{ item: "spartanweaponry:tomahawk_diamond" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_diamond"
@@ -323,7 +347,15 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:javelin_netherite" }
+		{
+			item: {
+				id: "spartanweaponry:javelin_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:katana_netherite"
@@ -405,8 +437,24 @@
 				}
 			}
 		}
-		{ item: "spartanweaponry:throwing_knife_netherite" }
-		{ item: "spartanweaponry:tomahawk_netherite" }
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 		{
 			item: {
 				id: "spartanweaponry:warhammer_netherite"

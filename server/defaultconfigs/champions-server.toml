@@ -38,22 +38,22 @@
 [growth]
 	#The increase in knockback resistance multiplied by the growth factor
 	#Range: 0.0 ~ 1.0
-	knockbackResistanceGrowth = 0.05
+	knockbackResistanceGrowth = 0.15
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	toughnessGrowth = 0.25
+	toughnessGrowth = 0.35
 	#The increase in experience multiplied by the growth factor
 	#Range: > 0
-	experienceGrowth = 1
+	experienceGrowth = 1.25
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
 	healthGrowth = 0.35
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 0.85
+	attackGrowth = 0.95
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
-	explosionGrowth = 2
+	explosionGrowth = 3
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
 	armorGrowth = 1.0
@@ -86,7 +86,7 @@
 	[affixes.wounding]
 		#The percent chance that an attack will wound targets
 		#Range: 0.0 ~ 1.0
-		woundingChance = 0.4
+		woundingChance = 0.5
 
 	[affixes.desecrating]
 		#How long (in seconds) it takes for the effect cloud to activate after being placed
@@ -132,12 +132,12 @@
 		reflectiveMinPercent = 0.1
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 100
+		reflectiveMax = 30
 		#Set to true to enable deadly reflected strikes
 		reflectiveLethal = true
 		#The maximum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMaxPercent = 0.35
+		reflectiveMaxPercent = 0.20
 
 	[affixes.hasty]
 		#The base movement speed bonus
@@ -165,11 +165,11 @@
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect
 		#Range: 0.0 ~ 100.0
-		magneticStrength = 0.05
+		magneticStrength = 0.20
 
 	[affixes.molten]
 		#Set to true to have Molten champions not be damaged by water
-		moltenWaterResistance = false
+		moltenWaterResistance = true
 
 	[affixes.plagued]
 		#The effect that will be spread

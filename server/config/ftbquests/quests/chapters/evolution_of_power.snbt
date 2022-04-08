@@ -1306,7 +1306,7 @@
 			shape: "diamond"
 			subtitle: "The Godforge breaks down unwanted God drops into crystals."
 			description: [
-				"You can awaken the ancient Pharaohs of planet Atum by finding their Pyramids and locating their Sarcophagus.  Placing four Nebu torches around the sarcophagus and then right click it.  Pharaohs will drop weapons and items that will allow you to craft the most powerful equipment in this adventure.  You can specify which God's Pharaoh you want to summon by using their specific Nebu Torch."
+				"You can awaken the ancient Pharaohs of planet Atum by finding their Pyramids and locating their Sarcophagus.  The Pyramid entrances are located on one side of the pillar, and require Nebu Torches to open.  Placing four Pharaoh-specific Nebu torches around the sarcophagus and then right click it.  Pharaohs will drop weapons and items that will allow you to craft the most powerful equipment in this adventure.  You can specify which God's Pharaoh you want to summon by using their specific Nebu Torch."
 				""
 				"{image:rusticwaters:textures/sarcs2.png width:200 height:100 align:1}"
 			]
@@ -1325,6 +1325,12 @@
 					type: "item"
 					item: "atum:torch_of_montu"
 					count: 4L
+				}
+				{
+					id: "5A785720F54B00EB"
+					type: "item"
+					item: "atum:nebu_torch"
+					count: 8L
 				}
 			]
 			rewards: [{

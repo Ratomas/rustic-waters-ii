@@ -20,6 +20,19 @@ seamothGuiOffsetX = -4
 #No comment
 #Range: -1000 ~ 1000
 seamothGuiOffsetY = -8
+#If enabled the oxygen gui will always be rendered.
+oxygenGuiRenderAlways = false
+#If enabled the oxygen gui will be rendered when current oxygen is less than the oxygen capacity.
+oxygenGuiRenderNotFull = true
+#If enabled the oxygen gui will be rendered when underwater.
+oxygenGuiRenderUnderwater = true
+#When enabled a custom sea level can be set using the 'seaLevel' option.
+seaLevelOverride = false
 #No comment
-skipSkyRendering = true
+#Range: -1024 ~ 1024
+seaLevel = 64
+#When enabled and the player is underwater and below the sea level then the sky rendering will be skipped.
+skipSkyRenderingInWater = true
+#When enabled and the player is below the sea level then the sky rendering will be skipped.
+skipSkyRenderingBelowSealevel = false
 

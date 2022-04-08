@@ -28,6 +28,13 @@ craftingTable.removeByModid("vanillahammers");
 
 
 
+
+craftingTable.removeRecipe(<item:mysticalagriculture:experience_droplet>);
+craftingTable.removeRecipe(<item:extendedcrafting:ultimate_catalyst>);
+craftingTable.removeRecipe(<item:mekanism:basic_induction_provider>);
+craftingTable.removeRecipe(<item:extendedcrafting:compressor>);
+craftingTable.removeRecipe(<item:mekanism:induction_casing>);
+craftingTable.removeRecipe(<item:mekanism:basic_induction_cell>);
 craftingTable.removeRecipe(<item:miniutilities:dark_glass>);
 craftingTable.removeRecipe(<item:minecraft:heavy_weighted_pressure_plate>);
 craftingTable.removeRecipe(<item:mysticalagriculture:supremium_farmland>);
@@ -61,6 +68,7 @@ craftingTable.removeRecipe(<item:modularrouters:sender_module_3>);
 craftingTable.removeRecipe(<item:darkutils:rune_damage_player>);
 craftingTable.removeRecipe(<item:boss_tools:blast_furnace>);
 recipes.removeByName("pamhc2crops:bread_grain");
+recipes.removeByName("industrialforegoing:dissolution_chamber/xp_bottles");
 recipes.removeByName("minecraft:bread");
 craftingTable.removeRecipe(<item:chisel:charcoal/raw>);
 craftingTable.removeRecipe(<item:immersiveengineering:craftingtable>);
@@ -626,10 +634,8 @@ craftingTable.addShapeless("4c3c9-585b-49c1-a07d-f0a8bd7b11da", <item:createaddi
     <tag:items:forge:ingots/brass>, <tag:items:forge:ingots/brass>
 ]);
 
-craftingTable.addShaped("19bfd114-34a8-4ecc-80df-81ce6493a19b", <item:minecraft:shears>, [
-    [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>], 
-    [<tag:items:forge:plates/iron>, <item:minecraft:air>, <item:minecraft:air>], 
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+craftingTable.addShapeless("1200c784-cb4a-4bf8-a8e4-ea418a5028c9", <item:minecraft:shears>, [
+	<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>
 ]);
 
 craftingTable.addShaped("789d6aec-a131-4769-9b0b-12bc1303f07d", <item:minecraft:oak_sapling>, [
@@ -1388,27 +1394,27 @@ craftingTable.addShaped("0c4a3cc4-ef17-46e0-8fb2-574bf563634c", <item:extendedcr
 ]);
 
 craftingTable.addShaped("e9ffd377-925e-4a81-90d9-d28e4ed1a1d3", <item:boss_tools:netherite_space_suit>, [
-	[<item:mekanism:alloy_reinforced>, <item:minecraft:air>, <item:mekanism:alloy_reinforced>], 
-	[<item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>], 
-	[<item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>]
+	[<item:mekanism:alloy_atomic>, <item:minecraft:air>, <item:mekanism:alloy_atomic>], 
+	[<item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>], 
+	[<item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>]
 ]);
 
 craftingTable.addShaped("cc8c89b9-c151-408c-8f9e-b4940cc71029", <item:boss_tools:netherite_oxygen_mask>, [
-	[<item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>], 
-	[<item:mekanism:alloy_reinforced>, <item:minecraft:air>, <item:mekanism:alloy_reinforced>], 
+	[<item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>], 
+	[<item:mekanism:alloy_atomic>, <item:minecraft:air>, <item:mekanism:alloy_atomic>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("3575b120-6ad6-4f20-8172-e1c7e7177873", <item:boss_tools:netherite_space_pants>, [
-	[<item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>, <item:mekanism:alloy_reinforced>], 
-	[<item:mekanism:alloy_reinforced>, <item:minecraft:air>, <item:mekanism:alloy_reinforced>], 
-	[<item:mekanism:alloy_reinforced>, <item:minecraft:air>, <item:mekanism:alloy_reinforced>]
+	[<item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>, <item:mekanism:alloy_atomic>], 
+	[<item:mekanism:alloy_atomic>, <item:minecraft:air>, <item:mekanism:alloy_atomic>], 
+	[<item:mekanism:alloy_atomic>, <item:minecraft:air>, <item:mekanism:alloy_atomic>]
 ]);
 
 craftingTable.addShaped("c60d7f22-ff07-4e47-8da0-a40f09d35fe0", <item:boss_tools:netherite_space_boots>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:mekanism:alloy_reinforced>, <item:minecraft:air>, <item:mekanism:alloy_reinforced>], 
-	[<item:mekanism:alloy_reinforced>, <item:minecraft:air>, <item:mekanism:alloy_reinforced>]
+	[<item:mekanism:alloy_atomic>, <item:minecraft:air>, <item:mekanism:alloy_atomic>], 
+	[<item:mekanism:alloy_atomic>, <item:minecraft:air>, <item:mekanism:alloy_atomic>]
 ]);
 
 craftingTable.addShaped("7600cd90-75a2-4092-b20d-3f5bf5f56007", <item:pipez:wrench>, [
@@ -1683,7 +1689,7 @@ craftingTable.addShapeless("39119059-1331-45ca-8b1a-34274bbe0229", <item:minecra
 
 
 craftingTable.addShapeless("29980f7a-26b0-41e6-87d2-28195a998198", <item:woot:si_dust>, [
-	<item:mekanism:dust_iron>, <item:create:powdered_obsidian>, <item:minecraft:nether_wart>
+	<tag:items:forge:dusts/iron>, <tag:items:forge:dusts/obsidian>, <item:minecraft:nether_wart>
 ]);
 
 craftingTable.addShaped("a837ec32-ae5c-4a43-a85c-0fd9526eeeb2", <item:woot:mobshard>, [
@@ -1964,7 +1970,7 @@ craftingTable.addShaped("894f3f13-6491-4d16-b2f0-07e36f2b3b81", <item:modularrou
 ]);
 
 craftingTable.addShapeless("426590b5-9955-423c-9976-26bed8ec0fde", <item:modularrouters:sender_module_3>, [
-	<item:minecraft:ender_eye>, <item:modularrouters:sender_module_2>.withTag({modularrouters: {ModuleFilter: {}}}), <item:mekanism:teleportation_core>
+	<item:minecraft:ender_eye>, <item:modularrouters:sender_module_2>, <item:mekanism:teleportation_core>
 ]);
 
 craftingTable.addShaped("b862abc4-b1ab-47db-9251-e89600e158ac", <item:ftbsluice:pump>, [
@@ -2087,4 +2093,76 @@ craftingTable.addShaped("69989676-2104-4948-a9db-c9cbf16c4acf", <item:miniutilit
 	[<item:minecraft:glass>, <item:minecraft:black_dye>, <item:minecraft:glass>], 
 	[<item:minecraft:glass>, <item:minecraft:glass>, <item:minecraft:glass>], 
 	[<item:minecraft:glass>, <item:minecraft:glass>, <item:minecraft:glass>]
+]);
+
+craftingTable.addShapeless("5172a591-109a-4ec5-a63d-acea58869655", <item:immersivepetroleum:bitumen>, [
+	<item:thermal:bitumen>
+]);
+
+craftingTable.addShapeless("d5507dfc-3d99-40f4-b5d6-a80ed60684cc", <item:thermal:bitumen>, [
+	<item:immersivepetroleum:bitumen>
+]);
+
+craftingTable.addShaped("78003b00-449c-452b-b72d-d46a1422fc55", <item:mekanism:basic_induction_cell>, [
+	[<item:rustic_resources:aluminite_ingot>, <item:mekanism:alloy_infused>, <item:rustic_resources:aluminite_ingot>], 
+	[<item:mekanism:ingot_osmium>, <item:mekanism:basic_energy_cube>, <item:mekanism:ingot_osmium>], 
+	[<item:rustic_resources:aluminite_ingot>, <item:mekanism:alloy_infused>, <item:rustic_resources:aluminite_ingot>]
+]);
+
+craftingTable.addShaped("6160a796-5c8e-4d50-a848-7e84e02ab0cf", <item:minecraft:bamboo> * 3, [
+	[<item:minecraft:air>, <tag:items:minecraft:coral_blocks>, <item:minecraft:sugar_cane>], 
+	[<tag:items:minecraft:coral_blocks>, <item:minecraft:sugar_cane>, <tag:items:minecraft:coral_blocks>], 
+	[<item:minecraft:sugar_cane>, <tag:items:minecraft:coral_blocks>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("0960b352-4f8a-4a24-82b6-005b4614f01a", <item:mekanism:induction_casing>, [
+	[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/lead>], 
+	[<tag:items:forge:ingots/tin>, <item:mekanism:enriched_redstone>, <tag:items:forge:ingots/tin>], 
+	[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/lead>]
+]);
+
+craftingTable.addShaped("466aef83-120b-4c1e-87f5-e394e75da93d", <item:mekanism:fluorite_gem>, [
+	[<item:minecraft:air>, <item:pamhc2foodcore:saltitem>, <item:minecraft:air>], 
+	[<item:pamhc2foodcore:saltitem>, <item:appliedenergistics2:purified_certus_quartz_crystal>, <item:pamhc2foodcore:saltitem>], 
+	[<item:minecraft:air>, <item:pamhc2foodcore:saltitem>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("561032eb-2750-45e3-9c31-471996c02da1", <item:thermal:tin_ingot> * 4, [
+	[<item:mysticalagriculture:tin_essence>, <item:mysticalagriculture:tin_essence>, <item:mysticalagriculture:tin_essence>], 
+	[<item:mysticalagriculture:tin_essence>, <item:minecraft:air>, <item:mysticalagriculture:tin_essence>], 
+	[<item:mysticalagriculture:tin_essence>, <item:mysticalagriculture:tin_essence>, <item:mysticalagriculture:tin_essence>]
+]);
+
+craftingTable.addShaped("b6432650-f673-43a5-99f1-90b8fe5da2e9", <item:extendedcrafting:compressor>, [
+	[<item:rustic_resources:shipcomponents>, <item:minecraft:piston>, <item:rustic_resources:shipcomponents>], 
+	[<item:appliedenergistics2:controller>, <item:industrialforegoing:machine_frame_supreme>, <item:appliedenergistics2:controller>], 
+	[<item:rustic_resources:shipcomponents>, <item:minecraft:piston>, <item:rustic_resources:shipcomponents>]
+]);
+
+craftingTable.addShaped("3c4e0cb1-5981-42b3-b8c0-7df25018f0cd", <item:mekanism:basic_induction_provider>, [
+	[<item:rustic_resources:aluminite_ingot>, <item:mekanism:basic_control_circuit>, <item:rustic_resources:aluminite_ingot>], 
+	[<item:mekanism:basic_control_circuit>, <item:mekanism:basic_energy_cube>, <item:mekanism:basic_control_circuit>], 
+	[<item:rustic_resources:aluminite_ingot>, <item:mekanism:basic_control_circuit>, <item:rustic_resources:aluminite_ingot>]
+]);
+
+craftingTable.addShaped("858f902b-e836-4e1f-96a0-564ce7c1d385", <item:extendedcrafting:ultimate_catalyst>, [
+	[<item:thermal:netherite_plate>, <item:miniutilities:emerald_opinium_core>, <item:thermal:netherite_plate>], 
+	[<item:miniutilities:emerald_opinium_core>, <item:thermal:netherite_plate>, <item:miniutilities:emerald_opinium_core>], 
+	[<item:thermal:netherite_plate>, <item:miniutilities:emerald_opinium_core>, <item:thermal:netherite_plate>]
+]);
+
+craftingTable.addShaped("d16fe729-e5b8-473a-af3d-d97789690535", <item:mysticalagriculture:experience_droplet>, [
+	[<item:mysticalagriculture:experience_essence>, <item:minecraft:air>, <item:mysticalagriculture:experience_essence>], 
+	[<item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>], 
+	[<item:mysticalagriculture:experience_essence>, <item:minecraft:air>, <item:mysticalagriculture:experience_essence>]
+]);
+
+craftingTable.addShaped("f92c1f64-92a5-4a7c-a3f6-00943738df72", <item:miniutilities:experience_pearl>, [
+	[<item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>], 
+	[<item:minecraft:air>, <item:mysticalagriculture:experience_essence>, <item:minecraft:air>], 
+	[<item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>]
+]);
+
+craftingTable.addShapeless("a61efacc-ba97-4354-baa0-f3bf434978ca", <item:miniutilities:experience_pearl> * 10, [
+	<item:industrialforegoing:essence_bucket>
 ]);

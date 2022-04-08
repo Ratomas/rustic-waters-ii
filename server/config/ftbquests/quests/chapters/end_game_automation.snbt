@@ -1,7 +1,7 @@
 {
 	id: "3CBE7FCFB903736D"
 	group: ""
-	order_index: 17
+	order_index: 18
 	filename: "end_game_automation"
 	title: "Mystical Foregoing"
 	icon: "industrialforegoing:hydroponic_bed"
@@ -337,6 +337,7 @@
 		{
 			x: -7.0d
 			y: -5.5d
+			subtitle: "Hydroponics Pots follow similar planting rules as soil for most seeds.  Make sure there is appropriate lighting for the pots to operate."
 			description: ["It is not required for you to install Addons into your Hydroponic Beds, but giving each one a full suite of Processing, Speed, and Efficiency addons will make them grow plants extremely fast.  Remember though, the energy demands of your Hydroponic Farm will be extensive.  Make sure your Draconic Reactor is pumping out the juice."]
 			dependencies: ["2E195C83D2A045B0"]
 			id: "65CF84F4ACBDE371"

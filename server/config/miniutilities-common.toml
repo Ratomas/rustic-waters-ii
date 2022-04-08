@@ -54,10 +54,10 @@
 	"Mob cap for Area" = 3
 	#How long should it minimum wait before trying to spawn
 	#Range: 1 ~ 2000
-	"Minimum Waiting Time" = 350
+	"Minimum Waiting Time" = 600
 	#How big of an area should the block check for mobs, 2 would be 2x1x2 area
 	#Range: 1 ~ 5
-	"Area Size for entity count" = 2
+	"Area Size for entity count" = 4
 
 ["Blursed Earth Settings"]
 	#At what amount of entities in the area should mob spawning be halted
@@ -65,10 +65,10 @@
 	"Mob cap for Area" = 3
 	#How long should it minimum wait before trying to spawn
 	#Range: 1 ~ 2000
-	"Minimum Waiting Time" = 350
+	"Minimum Waiting Time" = 600
 	#How big of an area should the block check for mobs, 2 would be 2x1x2 area
 	#Range: 1 ~ 5
-	"Area Size for entity count" = 2
+	"Area Size for entity count" = 4
 
 ["Cursed Earth Settings"]
 	#At what amount of entities in the area should mob spawning be halted
@@ -76,8 +76,8 @@
 	"Mob cap for Area" = 3
 	#How long should it minimum wait before trying to spawn
 	#Range: 1 ~ 2000
-	"Minimum Waiting Time" = 350
+	"Minimum Waiting Time" = 600
 	#How big of an area should the block check for mobs, 2 would be 2x1x2 area
 	#Range: 1 ~ 5
-	"Area Size for entity count" = 2
+	"Area Size for entity count" = 4
 
