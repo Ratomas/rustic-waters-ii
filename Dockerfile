@@ -2,7 +2,7 @@
 
 FROM openjdk:8u312-jdk-buster
 
-LABEL version="1.14"
+LABEL version="1.15"
 
 RUN apt-get update && apt-get install -y curl dos2unix && \
  addgroup minecraft && \
@@ -23,7 +23,7 @@ EXPOSE 25565/tcp
 
 CMD ["/launch.sh"]
 
-ENV MOTD "Rustic Water II v1.14 Server Powered by Docker"
+ENV MOTD "Rustic Water II v1.15 Server Powered by Docker"
 ENV LEVEL world
 ENV LEVELTYPE ""
 ENV JVM_OPTS "-Xms2048m -Xmx6144m"

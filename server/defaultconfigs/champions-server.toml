@@ -38,7 +38,7 @@
 [growth]
 	#The increase in knockback resistance multiplied by the growth factor
 	#Range: 0.0 ~ 1.0
-	knockbackResistanceGrowth = 0.15
+	knockbackResistanceGrowth = 0.30
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
 	toughnessGrowth = 0.35
@@ -91,7 +91,7 @@
 	[affixes.desecrating]
 		#How long (in seconds) it takes for the effect cloud to activate after being placed
 		#Range: > 0
-		desecratingCloudActivationTime = 0.5
+		desecratingCloudActivationTime = 0.4
 		#The radius of the cloud effect
 		#Range: 1.0 ~ 1.7976931348623157E308
 		desecratingCloudRadius = 5.0
@@ -165,7 +165,7 @@
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect
 		#Range: 0.0 ~ 100.0
-		magneticStrength = 0.20
+		magneticStrength = 0.35
 
 	[affixes.molten]
 		#Set to true to have Molten champions not be damaged by water
@@ -177,7 +177,7 @@
 		plaguedEffect = "minecraft:poison;15;1"
 		#The range of the plagued effect
 		#Range: 1 ~ 100
-		plaguedRange = 5
+		plaguedRange = 4
 
 [integrations]
 	#Scaling Health

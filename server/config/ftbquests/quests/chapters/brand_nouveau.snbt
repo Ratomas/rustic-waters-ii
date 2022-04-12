@@ -276,7 +276,7 @@
 		{
 			x: 9.5d
 			y: -5.5d
-			subtitle: "You may need to craft more Arcane Pedestals depending on how deep into the mod you would like to go."
+			subtitle: "Place the pedestals directly next to the Mycelial Sourcelink."
 			description: ["Arcane Pedestals certain nearby Arcane machinery to pull items from them.  Although you are crafting four pedestals, you can use as few as one to supply food to your Mycelial Sourcelink."]
 			dependencies: ["40540A0B62B28387"]
 			id: "4387B2F621F2634F"

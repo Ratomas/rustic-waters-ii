@@ -28,7 +28,8 @@ craftingTable.removeByModid("vanillahammers");
 
 
 
-
+craftingTable.removeRecipe(<item:boss_tools:steel_block>);
+craftingTable.removeRecipe(<item:mekanism:block_steel>);
 craftingTable.removeRecipe(<item:mysticalagriculture:experience_droplet>);
 craftingTable.removeRecipe(<item:extendedcrafting:ultimate_catalyst>);
 craftingTable.removeRecipe(<item:mekanism:basic_induction_provider>);
@@ -2151,13 +2152,13 @@ craftingTable.addShaped("858f902b-e836-4e1f-96a0-564ce7c1d385", <item:extendedcr
 	[<item:thermal:netherite_plate>, <item:miniutilities:emerald_opinium_core>, <item:thermal:netherite_plate>]
 ]);
 
-craftingTable.addShaped("d16fe729-e5b8-473a-af3d-d97789690535", <item:mysticalagriculture:experience_droplet>, [
+craftingTable.addShaped("d16fe729-e5b8-473a-af3d-d97789690535", <item:mysticalagriculture:experience_droplet> * 8, [
 	[<item:mysticalagriculture:experience_essence>, <item:minecraft:air>, <item:mysticalagriculture:experience_essence>], 
 	[<item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>], 
 	[<item:mysticalagriculture:experience_essence>, <item:minecraft:air>, <item:mysticalagriculture:experience_essence>]
 ]);
 
-craftingTable.addShaped("f92c1f64-92a5-4a7c-a3f6-00943738df72", <item:miniutilities:experience_pearl>, [
+craftingTable.addShaped("f92c1f64-92a5-4a7c-a3f6-00943738df72", <item:miniutilities:experience_pearl> * 8, [
 	[<item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>], 
 	[<item:minecraft:air>, <item:mysticalagriculture:experience_essence>, <item:minecraft:air>], 
 	[<item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>, <item:mysticalagriculture:experience_essence>]
@@ -2165,4 +2166,20 @@ craftingTable.addShaped("f92c1f64-92a5-4a7c-a3f6-00943738df72", <item:miniutilit
 
 craftingTable.addShapeless("a61efacc-ba97-4354-baa0-f3bf434978ca", <item:miniutilities:experience_pearl> * 10, [
 	<item:industrialforegoing:essence_bucket>
+]);
+
+craftingTable.addShaped("9ab24a3d-6b5c-4b2e-95e8-458623bbb661", <item:immersiveengineering:storage_steel>, [
+	[<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>], 
+	[<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>], 
+	[<item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>, <item:mekanism:ingot_steel>]
+]);
+
+craftingTable.addShaped("7166df6e-c0d1-4898-b05b-7694ab770411", <item:immersiveengineering:storage_steel>, [
+	[<item:boss_tools:steel_ingot>, <item:boss_tools:steel_ingot>, <item:boss_tools:steel_ingot>], 
+	[<item:boss_tools:steel_ingot>, <item:boss_tools:steel_ingot>, <item:boss_tools:steel_ingot>], 
+	[<item:boss_tools:steel_ingot>, <item:boss_tools:steel_ingot>, <item:boss_tools:steel_ingot>]
+]);
+
+craftingTable.addShapeless("e7694fd4-fdea-41a6-9b7c-2cd45c06e7b4", <item:create:rose_quartz>, [
+	<item:minecraft:quartz>, <item:minecraft:redstone_block>
 ]);

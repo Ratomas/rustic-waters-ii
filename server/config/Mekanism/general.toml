@@ -163,7 +163,7 @@
 	#SPS Settings
 	[general.sps]
 		#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
-		energyPerInput = "1000000"
+		energyPerInput = "700000"
 		#How much input gas (polonium) in mB must be processed to make 1 mB of antimatter.
 		#Range: > 1
 		inputPerAntimatter = 1000

@@ -67,6 +67,7 @@
 		{
 			x: -1.5d
 			y: 5.5d
+			subtitle: "Crystal Sand can also be found in abundance on the ocean floor."
 			description: ["Now that you have crafted the pieces of the puzzle, and hopefully set up some nifty automation, it's time to make the magic happen.  Combine Crushed Ice, Sand, and Diamond Dust into your Induction Smelter.  Supply it with power, and optionally add a Catalyst.  You will receive Crystal Sand and have a chance to receive Certus Quartz Dust."]
 			dependencies: ["77AB14713E6C42C8"]
 			id: "6B744D54DD23CB28"
@@ -84,7 +85,8 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 0.5d
+			subtitle: "If you have not already, it is highly recommended that you set up a tree farm to make the Charcoal -> Coal process automatic."
 			description: [
 				"  You have already learned how to automate Obsidian crafting.  Now you can automate the creation of Coal.  The Centrifugal Separator spins resources until their base materials are sucked out of them.  For the purpose of this chain, this would allow you to spin Charcoal (made from smelting logs) into Coal and sometimes Sawdust."
 				"  Consider setting up the automation of Tree growth to make this entire process more \"hands off\"."
@@ -168,7 +170,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.5d
+			y: 1.5d
 			description: [
 				"Diamonds can be created by applying high amounts of pressure to Coal Lumps.  This requires a large amount of Coal and Obsidian."
 				"You can also create Diamonds by using the Enchanting Apparatus and Source from Ars Nouveau if you have the inkling for the Arcane Arts.  The Enchanting Apparatus can also be automated.  Using magic through Ars Nouveau uses much fewer resources and zero FE."
