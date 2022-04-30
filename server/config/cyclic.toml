@@ -145,7 +145,7 @@
 	#####################################################################################
 	[cyclic.items]
 		#Entity ids that cannot be picked up with the Monster all
-		monster_ball_ignore_list = ["minecraft:ender_dragon", "minecraft:wither"]
+		monster_ball_ignore_list = ["minecraft:ender_dragon", "atum:pharaoh", "dungeons_mobs:redstone_golem", "dungeons_mobs:squall_golem", "minecraft:wither"]
 
 		#####################################################################################
 		# Obsidian gear settings

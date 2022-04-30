@@ -65,6 +65,10 @@ import crafttweaker.api.item.Rarity;
 <item:spartanweaponry:longsword_electrum>.addTooltip(MCTextComponent.createStringTextComponent("girthy longsword you got there.").setStyle(<formatting:light_purple> as MCStyle));
 
 
+<item:miniutilities:experience_pearl_1x>.addTooltip(MCTextComponent.createStringTextComponent("Can be purified from essence").setStyle(<formatting:light_purple> as MCStyle));
+<item:miniutilities:experience_pearl_1x>.addTooltip(MCTextComponent.createStringTextComponent("or crafted from XP Pearls.").setStyle(<formatting:light_purple> as MCStyle));
+
+
 <item:spartanweaponry:katana_electrum>.addTooltip(MCTextComponent.createStringTextComponent("Some love is quick.").setStyle(<formatting:light_purple> as MCStyle));
 <item:spartanweaponry:katana_electrum>.addTooltip(MCTextComponent.createStringTextComponent("Some love is painful.").setStyle(<formatting:light_purple> as MCStyle));
 <item:spartanweaponry:katana_electrum>.addTooltip(MCTextComponent.createStringTextComponent("Most love is both.").setStyle(<formatting:light_purple> as MCStyle));

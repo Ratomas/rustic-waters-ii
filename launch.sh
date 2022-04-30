@@ -27,7 +27,7 @@ if ! [[ -f minecraft_server.1.16.5.jar ]]; then
 		exit 1
 	fi
 fi
-if ! [[ -f server-1.15.jar ]]; then
+if ! [[ -f server-1.16.jar ]]; then
 	rm -fr config defaultconfigs global_data_packs global_resource_packs kubejs libraries mods patchouli_books scripts server-*.jar server.properties
 	mv /server/* /data/
 fi
@@ -49,4 +49,4 @@ fi
 curl -o log4j2_112-116.xml https://launcher.mojang.com/v1/objects/02937d122c86ce73319ef9975b58896fc1b491d1/log4j2_112-116.xml
 
 
-java $JAVA_FLAGS $JVM_OPTS -Dlog4j.configurationFile=log4j2_112-116.xml -jar server-1.15.jar
+java $JAVA_FLAGS $JVM_OPTS -Dlog4j.configurationFile=log4j2_112-116.xml -jar server-1.16.jar

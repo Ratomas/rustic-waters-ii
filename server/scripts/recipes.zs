@@ -12,6 +12,7 @@ Replacer.forMods("create").replaceFully(<tag:items:minecraft:planks>, <tag:items
 <recipetype:immersiveengineering:coke_oven>.addRecipe("charcoke", <item:minecraft:charcoal>, 700, <item:immersiveengineering:coal_coke>, 200);
 
 
+
 smithing.removeRecipe(<item:ftbsluice:netherite_sluice>);
 stoneCutter.removeRecipe(<item:create:framed_glass>);
 craftingTable.removeByModid("titanium");
@@ -28,6 +29,10 @@ craftingTable.removeByModid("vanillahammers");
 
 
 
+craftingTable.removeRecipe(<item:ftbsluice:empowered_sluice>);
+craftingTable.removeRecipe(<item:ftbsluice:netherite_sluice>);
+craftingTable.removeRecipe(<item:extendedcrafting:elite_auto_table>);
+craftingTable.removeRecipe(<item:extendedcrafting:basic_auto_table>);
 craftingTable.removeRecipe(<item:boss_tools:steel_block>);
 craftingTable.removeRecipe(<item:mekanism:block_steel>);
 craftingTable.removeRecipe(<item:mysticalagriculture:experience_droplet>);
@@ -2182,4 +2187,16 @@ craftingTable.addShaped("7166df6e-c0d1-4898-b05b-7694ab770411", <item:immersivee
 
 craftingTable.addShapeless("e7694fd4-fdea-41a6-9b7c-2cd45c06e7b4", <item:create:rose_quartz>, [
 	<item:minecraft:quartz>, <item:minecraft:redstone_block>
+]);
+
+craftingTable.addShaped("274a1160-1f80-4bd2-941c-95711cf0fc06", <item:extendedcrafting:elite_auto_table>, [
+	[<item:minecraft:air>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:air>], 
+	[<item:minecraft:hopper>, <item:extendedcrafting:elite_table>, <item:minecraft:hopper>], 
+	[<item:minecraft:air>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("d0da9691-5c67-4707-8fb8-5a6a4ad94a9d", <item:extendedcrafting:basic_auto_table>, [
+	[<item:minecraft:air>, <item:mekanism:elite_control_circuit>, <item:minecraft:air>], 
+	[<item:minecraft:hopper>, <item:extendedcrafting:basic_table>, <item:minecraft:hopper>], 
+	[<item:minecraft:air>, <item:mekanism:elite_control_circuit>, <item:minecraft:air>]
 ]);

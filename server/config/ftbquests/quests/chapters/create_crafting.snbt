@@ -560,6 +560,7 @@
 		{
 			x: 3.0d
 			y: -6.5d
+			subtitle: "The basic Blast Furnace does not have automation capabilities.  You can make an Improved Blast Furnace once you have acquired your first steel ingots.  The improved Blast Furnace is also a 3x3x3, but has a hopper placed on the top middle block."
 			description: ["The multiblock blast furnace is created by placing the blast bricks in a 3x3x3 pattern, and then right clicking with your engineer's hammer.  Placing iron in the input slot, along with coal or charcoal, will allow you to produce Steel.  "]
 			dependencies: ["733D62F60913BAE5"]
 			id: "0FB29576DC2AFD38"
